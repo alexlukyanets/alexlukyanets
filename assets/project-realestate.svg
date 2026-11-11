@@ -29,7 +29,7 @@
 <text class="ti" x="0" y="92">US real-estate data platform</text>
 <text class="de" x="0" y="132">Led the parsing team: gRPC microservices collect foreclosure</text><text class="de" x="0" y="154">notices across US counties, LLMs extract fields, RAG adds</text><text class="de" x="0" y="176">context, clients get it through an API.</text>
 <text class="mv" x="0" y="264" fill="url(#f)">1.5M+</text>
-<text class="ml" x="144" y="258">records via API</text>
+<text class="ml" x="153" y="258">records via API</text>
 <g transform="translate(0 284)"><g transform="translate(0 0)"><rect width="73.6" height="26" rx="13" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text class="chip" x="36.8" y="17.5" text-anchor="middle">OpenAI</text></g><g transform="translate(81.6 0)"><rect width="65" height="26" rx="13" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text class="chip" x="32.5" y="17.5" text-anchor="middle">Llama</text></g><g transform="translate(154.6 0)"><rect width="90.8" height="26" rx="13" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text class="chip" x="45.4" y="17.5" text-anchor="middle">ChromaDB</text></g><g transform="translate(253.39999999999998 0)"><rect width="56.4" height="26" rx="13" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text class="chip" x="28.2" y="17.5" text-anchor="middle">gRPC</text></g><g transform="translate(317.79999999999995 0)"><rect width="82.19999999999999" height="26" rx="13" fill="#fff" fill-opacity=".04" stroke="#fff" stroke-opacity=".12"/><text class="chip" x="41.099999999999994" y="17.5" text-anchor="middle">PostGIS</text></g></g>
 </g>
 <rect class="sheen" x="0" y="0" width="200" height="330" fill="url(#sh)" transform="skewX(-18)"/>
