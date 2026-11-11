@@ -1,4 +1,4 @@
-<a href="https://oleksandr.62-238-84-212.sslip.io/">
+<a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile">
   <img src="./assets/header.svg" width="100%" alt="Oleksandr Lukianets - AI engineer and web developer in Valencia, Spain">
 </a>
 
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://oleksandr.62-238-84-212.sslip.io/"><img alt="Website" src="https://img.shields.io/badge/Website-0b0e14?style=for-the-badge&logo=googlechrome&logoColor=e7a25c"></a>
+  <a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile"><img alt="Website" src="https://img.shields.io/badge/Website-0b0e14?style=for-the-badge&logo=googlechrome&logoColor=e7a25c"></a>
   <a href="https://wa.me/34600595224"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
   <a href="https://t.me/lukyanetsalex"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-2AABEE?style=for-the-badge&logo=telegram&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/alexandr-lukyanets/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -20,25 +20,35 @@
 <sub>🇪🇸 Ingeniero de IA y desarrollador web en Valencia: páginas web, asistentes de IA, bots de Telegram y backends en Python. · 🇺🇦 AI-інженер і веб-розробник у Валенсії.</sub>
 
 - 🛰️ **Now:** backend engineer in the core team of an OSINT platform - async collection, reliability, MCP tools for AI agents
-- 🧠 **Building:** [Holy](https://oleksandr.62-238-84-212.sslip.io/#projects), my own AI assistant that runs my day on my own server
+- 🧠 **Building:** [Holy](https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile#projects), my own AI assistant that runs my day on my own server
 - 🌐 **For clients:** landing pages and business sites, AI assistants and chatbots, scrapers and data pipelines, Python APIs
 - 📍 **Where:** Valencia, Spain · CET · remote for EU, UK, US or in person in Valencia
 - 💬 **Ask me about:** RAG, LLM extraction, MCP agents, FastAPI, web scraping at scale, Telegram bots
+- 🤝 **Open to:** client projects (sites, AI assistants, automation) and contract AI / Python roles, remote or in Valencia
 
 ## Selected work
 
-<sub>Client code stays private. These are real systems, the problems and how I solved them. Full cases on <a href="https://oleksandr.62-238-84-212.sslip.io/#projects">the site</a>.</sub>
+<sub>Production code is private (client and employer work). These are real systems, the problems and how I solved them; happy to walk through the architecture on a call. Full cases on <a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile#projects">the site</a>.</sub>
 
 <table>
   <tr>
-    <td width="50%"><a href="https://oleksandr.62-238-84-212.sslip.io/#projects"><img src="./assets/project-holy.svg" width="100%" alt="Holy: my personal AI operating system"></a></td>
-    <td width="50%"><a href="https://oleksandr.62-238-84-212.sslip.io/#projects"><img src="./assets/project-realestate.svg" width="100%" alt="US real-estate data platform, 1.5M+ records via API"></a></td>
+    <td width="50%"><a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile#projects"><img src="./assets/project-holy.svg" width="100%" alt="Holy: my personal AI operating system"></a></td>
+    <td width="50%"><a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile#projects"><img src="./assets/project-realestate.svg" width="100%" alt="US real-estate data platform, 1.5M+ records via API"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://oleksandr.62-238-84-212.sslip.io/#projects"><img src="./assets/project-slapi.svg" width="100%" alt="SL API: OSINT intelligence platform with MCP tools"></a></td>
-    <td width="50%"><a href="https://oleksandr.62-238-84-212.sslip.io/#projects"><img src="./assets/project-property.svg" width="100%" alt="Valencia property check: listing to cadastre to land registry"></a></td>
+    <td width="50%"><a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile#projects"><img src="./assets/project-slapi.svg" width="100%" alt="SL API: OSINT intelligence platform with MCP tools"></a></td>
+    <td width="50%"><a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile#projects"><img src="./assets/project-property.svg" width="100%" alt="Valencia property check: listing to cadastre to land registry"></a></td>
   </tr>
 </table>
+
+| Project | Stack | Result |
+|---|---|---|
+| **Holy** - personal AI operating system | Claude, local Whisper large-v3, FastAPI, MongoDB, Docker, CDP | 3 services behind one API, 24/7 on my own server, speech-to-text at 0 € |
+| **US real-estate data platform** - parsing team lead | OpenAI, Llama, ChromaDB (RAG), gRPC, PostGIS | ~24 gRPC services, 1.5M+ records served via API |
+| **SL API** - OSINT intelligence platform | FastAPI, Celery, MongoDB, Sentry, MCP | public-data endpoint without logged-in sessions, MCP tools for AI agents |
+| **Valencia property check** | Python, Playwright, Catastro INSPIRE | listing → cadastral parcel → land registry in one pipeline |
+| **AI content engine for SEO** | Django REST, OpenAI, Scrapy | scraped sources turned into SEO articles automatically |
+| **Clinic Telegram assistant** | Aiogram, Django, PostgreSQL | appointment reminders and service info edited by the staff |
 
 <details>
 <summary><b>🧠 How Holy works - click to open the architecture</b></summary>
@@ -86,8 +96,8 @@ flowchart LR
 
 Write one message with your idea - I usually reply the same day.
 
-<a href="https://oleksandr.62-238-84-212.sslip.io/">
+<a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile">
   <img src="./assets/footer.svg" width="100%" alt="Let's build something that shines - WhatsApp, Telegram, LinkedIn">
 </a>
 
-<p align="center"><sub>Oleksandr Lukianets · AI engineer & web developer · Valencia, Spain · <a href="https://oleksandr.62-238-84-212.sslip.io/">oleksandr.62-238-84-212.sslip.io</a></sub></p>
+<p align="center"><sub>Oleksandr Lukianets · AI engineer & web developer · Valencia, Spain · <a href="https://oleksandr.62-238-84-212.sslip.io/?utm_source=github&utm_medium=profile">oleksandr.62-238-84-212.sslip.io</a></sub></p>
